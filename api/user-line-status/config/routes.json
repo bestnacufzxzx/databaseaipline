@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/user-line-statuses",
+      "handler": "user-line-status.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-line-statuses/count",
+      "handler": "user-line-status.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/user-line-statuses/:id",
+      "handler": "user-line-status.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/user-line-statuses",
+      "handler": "user-line-status.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/user-line-statuses/:id",
+      "handler": "user-line-status.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/user-line-statuses/:id",
+      "handler": "user-line-status.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

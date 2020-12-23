@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "userlines",
+  "info": {
+    "name": "userline",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userId": {
+      "type": "string"
+    },
+    "groupId": {
+      "type": "string"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "pictureUrl": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "biginteger"
+    },
+    "status": {
+      "type": "string"
+    },
+    "mode": {
+      "type": "string"
+    }
+  }
+}

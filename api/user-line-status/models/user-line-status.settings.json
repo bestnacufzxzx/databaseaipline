@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_line_statuses",
+  "info": {
+    "name": "User-line-status",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "userId": {
+      "type": "string"
+    },
+    "groupId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "biginteger"
+    },
+    "displayName": {
+      "type": "string"
+    },
+    "pictureUrl": {
+      "type": "string"
+    }
+  }
+}
